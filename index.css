@@ -28,7 +28,7 @@ html{
 
 #index {
     user-select: none;
-    height: calc(100vh - 103px);
+    height: calc(100vh - 100px);
     width: 100%;
     padding: 15vh 0 0 0;
 	position: relative;
@@ -46,7 +46,7 @@ html{
 
 .indexImg {
 	width: 43vw;
-	left: 80vh;
+	left: 95vh;
 	bottom: 18vh;
 	position: relative;
 	z-index: -10;
@@ -340,5 +340,3 @@ html{
 		justify-content: space-evenly;
 	}
 }
-
-
