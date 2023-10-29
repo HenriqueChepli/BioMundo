@@ -3,7 +3,8 @@
   }
   
   html {
-	scroll-behavior: smooth ;
+	scroll-behavior: smooth;
+  overflow-x: hidden;
   }
   
   body, ul {
@@ -40,6 +41,7 @@
   justify-content: space-between;
   background: #e7e7e7;
   margin: auto;
+  margin-top: 10px;
   border-radius: 20px;
   }
   
@@ -59,7 +61,7 @@
 	letter-spacing: 2.5px;
 	position: absolute;
 	max-width: 1270px;
-	top: 70px;
+	top: 79px;
 	right: 0px;
 	left: 0px;
 	background: #e7e7e7;
@@ -156,8 +158,8 @@
   }
 
   .info{
-	width: 30vw;
-	height: 100%;
+	width: 35vw;
+	height: 25vh;
 	color: #ffffff;
   }
 
@@ -191,7 +193,7 @@
 	justify-content: center;
 	text-align: center;
 	width: 100%;
-	height: 10vh;
+	height: 2.5vh;
   }
 
   #copyright{
@@ -203,35 +205,95 @@
 
   /*Responsividade*/
 
+@media (max-width:1050px) {
+    .text-nick{
+      font-size: 10px;
+    }
+  
+    #footer-top{
+      height: 25vh;
+    }
+    #copyright{
+      font-size: 9px;
+    }
+}
+
+@media (max-width:850px) {
+  .text-nick{
+    font-size: 11px;
+  }
+}
+
 @media (max-width:700px) {
-	  #footer {
+	  #footer-top {
 		display: flex;
 		justify-content: space-around;
-		flex-direction: row;
-		background-color: #212121;
-		padding: 75px 50px 0 50px;
-		width: 100%;
-		height: 80vh;
+		flex-direction: column;
 		flex-wrap: wrap;
+    height: 40vh;
 	  }
 
+}
+
+@media (max-width:550px) {
+  .text-nick{
+    font-size: 7px;
+  }
+
+  #footer-top{
+    height: 25vh;
+  }
+  #copyright{
+    font-size: 9px;
+  }
 }
 
 @media (max-width:450px) {
-	  #footer {
-		height: 160vh;
-	  }
+    #footer{
+      height: 80vh;
+    }
+    #footer-bottom{
+      height: 2.5vh;
+    }
+    #footer-top{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      flex-direction: column;
+      height: 60vh;
+    }
+    .info{
+      height: 15vh;
+      width: 65vw;
+    }
+    .text-nick{
+      font-size: 13px;
+    }
 }
 
-@media (max-width:380px) {
-	#logo {
-		padding-top: 10px;
-		width: 300px;
-		text-decoration: none;
-		color: #0d0d0d;
-	  }
-
-	  #logo h1 {
-		font-size: 3.5vh;
-	  }
+@media (max-width:399px) {
+  #footer{
+    height: 100vh;
+  }
+  #footer-bottom{
+    height: 2.5vh;
+  }
+  #footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80vh;
+  }
+  .info{
+    height: 15vh;
+    width: 65vw;
+  }
+  .text-nick{
+    font-size: 10px;
+  }
 }
+
+
