@@ -46,7 +46,7 @@ html{
 }
 
 #box-tittle {
-	width: 100vh;
+	width: 100vw;
 	height: 35vh;
 	display: flex;
 	flex-direction: column;
@@ -89,7 +89,7 @@ html{
 	}
 
 	#box-tittle {
-		width: 100vh;
+		width: 100vw;
 		height: 25vh;
 	}
 }
@@ -112,12 +112,12 @@ html{
 	}
 
 	#box-tittle {
-		width: 100vh;
+		width: 100vw;
 		height: 23vh;
 	}
 
 	#box-tittle {
-		width: 100vh;
+		width: 100vw;
 		height: 22vh;
 	}
 
@@ -158,7 +158,7 @@ html{
 	}
 
 	#box-tittle {
-		width: 100vh;
+		width: 100vw;
 		height: 22vh;
 	}
 
@@ -197,7 +197,7 @@ html{
 	}
 
 	#box-tittle {
-		width: 100vh;
+		width: 100vw;
 		height: 25vh;
 	}
 
@@ -253,7 +253,7 @@ html{
 	}
 
 	#box-tittle {
-		width: 100vh;
+		width: 100vw;
 		height: 18vh;
 	}
 
@@ -286,7 +286,7 @@ html{
 	}
 
 	#box-tittle {
-		width: 100vh;
+		width: 100vw;
 		height: 18vh;
 	}
 
