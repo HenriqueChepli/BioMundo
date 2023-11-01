@@ -25,12 +25,8 @@
   }
 
   .referencia {
-    line-height: 1cm;
-    margin-right: 2cm;
-    margin-left: 3cm;
     text-align: justify;
-    line-height:1cm;
-    
+    line-height: 3vh;
   }
 
   .img-abnt {
@@ -38,6 +34,8 @@
     margin: auto;
     width: 35vw;
     height: 35vh;
+    border-radius: 20px;
+    border: 2px solid #d3d3d3;
   }
   .p-abnt {
     text-align: center;
@@ -45,3 +43,114 @@
   
 /*Responsividade*/
 
+@media (max-width:1270px){
+  .divMain{
+    max-width: 1300px;
+    margin: auto;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    padding: 35px;
+    margin-top: 2vh;
+    font-size: 1.4em;
+  }
+
+  #refeMain{
+    max-width: 1300px;
+    margin: auto;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    padding: 35px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 1em;
+  }
+
+  .img-abnt {
+    display: block;
+    margin: auto;
+    width: 37vw;
+    height: 35vh;
+  }
+}
+
+@media (max-width:1000px){
+  .divMain{
+    max-width: 1300px;
+    margin: auto;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    padding: 35px;
+    margin-top: 2vh;
+    font-size: 1.3em;
+  }
+
+  #refeMain{
+    max-width: 1300px;
+    margin: auto;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    padding: 35px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: .9em;
+  }
+
+  .img-abnt {
+    display: block;
+    margin: auto;
+    width: 40vw;
+    height: 35vh;
+  }
+}
+
+@media (max-width:700px){
+  .divMain{
+    max-width: 1300px;
+    margin: auto;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    padding: 35px;
+    margin-top: 2vh;
+    font-size: 1.1em;
+  }
+
+  #refeMain{
+    max-width: 1300px;
+    margin: auto;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    padding: 28px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: .8em;
+    text-align: left;
+  }
+
+  .img-abnt {
+    display: block;
+    margin: auto;
+    width: 55vw;
+    height: 35vh;
+  }
+}
+
+@media (max-width:500px){
+  #refeMain{
+    max-width: 1300px;
+    margin: auto;
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    padding: 35px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: .7em;
+    text-align: left;
+  }
+
+  .img-abnt {
+    display: block;
+    margin: auto;
+    width: 65vw;
+    height: 35vh;
+  }
+}
